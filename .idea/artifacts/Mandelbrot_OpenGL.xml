@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact name="Mandelbrot OpenGL">
+    <output-path>$PROJECT_DIR$/out/artifacts/Mandelbrot_OpenGL</output-path>
+    <root id="root">
+      <element id="archive" name="mandelbrot.zip">
+        <element id="archive" name="mandelbrot.jar" />
+        <element id="directory" name="res">
+          <element id="dir-copy" path="$PROJECT_DIR$/res" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+        </element>
+        <element id="directory" name="data">
+          <element id="dir-copy" path="$PROJECT_DIR$/data" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
